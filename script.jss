@@ -23,6 +23,6 @@ function adicionarProduto(livros) {
         nomeInput.value = "";
         imagemInput.value = "";
     } else {
-        alert("Preencha o nome do artigo e a URL da imagem.");
+        alert("https://s.yimg.com/uu/api/res/1.2/.csSdMOwdBFR6Y2kOoFMow--~B/aD0zNTgxO3c9NTM3MjtzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/1b15dc43265a8d3084988fc3fe01fbc2.");
     }
 }
