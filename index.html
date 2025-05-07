@@ -9,6 +9,7 @@
 <body>
     <header>
         <h1>Papelaria Criativa</h1>
+        <img class="recipe-image" src="https://s.yimg.com/uu/api/res/1.2/.csSdMOwdBFR6Y2kOoFMow--~B/aD0zNTgxO3c9NTM3MjtzbT0xO2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/1b15dc43265a8d3084988fc3fe01fbc2" />
     </header>
 
     <main>
@@ -20,6 +21,91 @@
         <section>
             <h2>Artigos Disponíveis</h2>
             <ul id="listaProdutos"></ul>
+            <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeria - Papelaria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d17a52;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .item:hover {
+      transform: scale(1.03);
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .descricao {
+      padding: 10px;
+      text-align: center;
+      color: #5a5a5a;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Galeria de Produtos - Papelaria Criativa</h1>
+
+  <div class="galeria">
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Canetas" alt="Canetas">
+      <div class="descricao">Canetas coloridas</div>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Cadernos" alt="Cadernos">
+      <div class="descricao">Cadernos decorados</div>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Lápis" alt="Lápis">
+      <div class="descricao">Lápis com estampas</div>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Adesivos" alt="Adesivos">
+      <div class="descricao">Adesivos fofos</div>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Post-its" alt="Post-its">
+      <div class="descricao">Post-its criativos</div>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Marca-texto" alt="Marca-texto">
+      <div class="descricao">Marca-texto pastel</div>
+    </div>
+  </div>
+
+</body>
+</html>
+
         </section>
     </main>
 
